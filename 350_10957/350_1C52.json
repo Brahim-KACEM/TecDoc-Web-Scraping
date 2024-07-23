@@ -1,0 +1,98 @@
+{
+    "Fitting Position": "Front Axle",
+    "Suspension": "for vehicles with sports suspension",
+    "for manufacturer": "Eibach",
+    "Spring Design": "Coil Spring",
+    "Wire Diameter": "14.8 mm",
+    "Length": "319 mm",
+    "Number of coils": "7.8",
+    "replacement in pairs recommended": "",
+    "OE References": [],
+    "Vehicle Data": [
+        {
+            "JAGUAR": [
+                {
+                    "Vehicle Name": "XF I (X250) 2.2 D",
+                    "Date Range": "03.2012-04.2015",
+                    "TA Value": "55988",
+                    "Power (HP)": "147",
+                    "Power (kW)": "200",
+                    "Engine Capacity": "2179",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 2.2 D",
+                    "Date Range": "05.2011-04.2015",
+                    "TA Value": "10957",
+                    "Power (HP)": "140",
+                    "Power (kW)": "190",
+                    "Engine Capacity": "2179",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 2.2 D",
+                    "Date Range": "04.2011-04.2015",
+                    "TA Value": "12012",
+                    "Power (HP)": "120",
+                    "Power (kW)": "163",
+                    "Engine Capacity": "2179",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 2.7 D",
+                    "Date Range": "03.2008-04.2015",
+                    "TA Value": "24477",
+                    "Power (HP)": "152",
+                    "Power (kW)": "207",
+                    "Engine Capacity": "2720",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 3.0 D",
+                    "Date Range": "03.2009-04.2015",
+                    "TA Value": "31361",
+                    "Power (HP)": "202",
+                    "Power (kW)": "275",
+                    "Engine Capacity": "2993",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 3.0 D",
+                    "Date Range": "03.2009-04.2015",
+                    "TA Value": "31360",
+                    "Power (HP)": "177",
+                    "Power (kW)": "241",
+                    "Engine Capacity": "2993",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 3.0 D",
+                    "Date Range": "03.2009-04.2015",
+                    "TA Value": "922",
+                    "Power (HP)": "155",
+                    "Power (kW)": "211",
+                    "Engine Capacity": "2993",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 4.2",
+                    "Date Range": "03.2008-04.2015",
+                    "TA Value": "24475",
+                    "Power (HP)": "219",
+                    "Power (kW)": "298",
+                    "Engine Capacity": "4196",
+                    "Body Type": "Saloon"
+                },
+                {
+                    "Vehicle Name": "XF I (X250) 4.2 Kompressor",
+                    "Date Range": "03.2008-04.2015",
+                    "TA Value": "24476",
+                    "Power (HP)": "306",
+                    "Power (kW)": "416",
+                    "Engine Capacity": "4196",
+                    "Body Type": "Saloon"
+                }
+            ]
+        }
+    ]
+}

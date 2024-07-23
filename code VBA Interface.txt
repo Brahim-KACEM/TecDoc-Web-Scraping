@@ -1,0 +1,52 @@
+Option Explicit
+
+' Declare the path to the Python script
+Const PYTHON_SCRIPT_PATH As String = "C:\path\to\your\script.py"
+Const EXCEL_PATH As String = "C:\Users\IT2\Desktop\TecDoc\test.py"
+
+' Declare a variable to store the ktype entered by the user
+Dim ktype As String
+
+' Subroutine to run the Python script
+Sub RunPythonScript()
+    ' Get the ktype entered by the user
+    ktype = Sheets("Sheet1").Range("A1").Value
+
+    ' Check if ktype is not empty
+    If ktype = "" Then
+        MsgBox "Please enter the ktype before submission.", vbExclamation
+        Exit Sub
+    End If
+
+    ' Create a new instance of the Shell
+    Dim shell As Object
+    Set shell = VBA.CreateObject("WScript.Shell")
+
+    ' Run the Python script with ktype as an argument
+    Dim command As String
+    command = "python """ & PYTHON_SCRIPT_PATH & """ " & ktype
+
+    ' Display a message box to confirm the action
+    MsgBox "Running the Python script. Please wait...", vbInformation
+
+    ' Execute the command
+    shell.Run command, vbNormalFocus
+
+    ' Clean up
+    Set shell = Nothing
+End Sub
+
+' Subroutine to get the ktype from the user
+Sub GetKtype()
+    ' Prompt the user to enter the ktype
+    ktype = InputBox("Please enter the ktype:", "Enter ktype")
+
+    ' Check if the user entered a value
+    If ktype <> "" Then
+        ' Store the ktype in cell A1 of Sheet1
+        Sheets("Sheet1").Range("A1").Value = ktype
+    Else
+        MsgBox "ktype cannot be empty. Please enter a valid ktype.", vbExclamation
+    End If
+End Sub
+
